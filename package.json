@@ -1,6 +1,6 @@
 {
   "name": "@hexgad/vue3-laravel-datatables",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
@@ -10,6 +10,7 @@
   "main": "dist/datatable.js",
   "module": "dist/datatable.mjs",
   "files": [
+    "src/*",
     "dist/*"
   ],
   "keywords": [],
