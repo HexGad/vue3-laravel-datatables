@@ -1,0 +1,26 @@
+{
+  "name": "vue3-laravel-datatables",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "main": "dist/datatable.js",
+  "module": "dist/datatable.mjs",
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "rollup": "^3.20.6",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}
