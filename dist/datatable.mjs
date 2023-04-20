@@ -146,8 +146,6 @@ var script = {
     placeholder: {required: false, type: String, default: 'Type to search..'}
   },
   created() {
-    this.emitter.on("productsUpdated", e => { this.getData(); });
-
 
     Object.assign(this.datatable, {
       columns: this.columns,
